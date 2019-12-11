@@ -12,18 +12,18 @@ export default class HomeScreen extends React.Component {
           style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
           <TouchableOpacity
             style={styles.button}
-            onPress={() => this.props.navigation.navigate('Profile')}>
-            <Text>Go to Profile</Text>
+            onPress={() => this.props.navigation.navigate('Profil')}>
+            <Text>Go to Profil</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.button}
-            onPress={() => this.props.navigation.navigate('text')}>
-            <Text>Go to Text</Text>
+            onPress={() => this.props.navigation.navigate('szoveg')}>
+            <Text>Go to Szoveg</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.button}
-            onPress={() => this.props.navigation.navigate('counter')}>
-            <Text>Go to Counter</Text>
+            onPress={() => this.props.navigation.navigate('szamlalo')}>
+            <Text>Go to Szamlalo</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.button}

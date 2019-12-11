@@ -3,7 +3,7 @@ import { Image } from "react-native";
 
 export default class ProfileScreen extends Component {
     static navigationOptions = {
-      title: 'Profile',
+      title: 'Profil',
     };
     render() {
       const {navigate} = this.props.navigation;
